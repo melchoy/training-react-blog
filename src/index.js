@@ -7,8 +7,8 @@ import App from './components/App';
 import reducers from './reducers';
 
 ReactDOM.render(
-  <Provider stroe={createStore(reducer)}>
+  <Provider store={createStore(reducers)}>
     <App />
   </Provider>,
-  documment.querySelector('#root')
+  document.querySelector('#root')
 );
